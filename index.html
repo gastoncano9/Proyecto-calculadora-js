@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no"/>
+        <!--<link rel = "stylesheet" tytpe = "text/css" href = "CSS/estilos.css">-->
+        <link rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css">
+        <link rel = "icon" type = "image/png" href = "Imagenes/Calculadora.png">
+        <title>Aplicacion - Calculadora</title>
+    </head>
+    <body>
+        <div class = "container">
+            <header id = "cabecera" class = "mt-4">
+                <h1>Aplicación Calculadora</h1>
+            </header>
+        
+            <form id = "formulario">
+                <label for = "numero1">Operando A</label>
+                <br/>
+                <input class = "form-control" id = "numero1" type = "number" placeholder = "Escribe operando A" required>
+                <br/>
+                <label for = "numero2">Operando B</label>
+                <br/>
+                <input class = "form-control" id = "numero2" type = "number" placeholder = "Escribe operando B" required>
+            </form>
+            <button id = "boton-sumar" class = "btn btn-primary mt-4">Sumar</button>
+            <div id = "resultado" class = "mt-2"></div>
+        </div>
+        
+        <script rel = "text/javascript" src = "JS/calculadora.js"></script>
+        <script rel = "text/javascript" src = "Jquery/jquery-3.6.0.min.js"></script>
+        <script rel = "text/javascript" src = "bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
